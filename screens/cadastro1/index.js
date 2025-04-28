@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import styles from './styles1';
 
-const Cadastro1 = ({ navigation }) => {
+const Cadastro = ({ navigation }) => {
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
@@ -19,13 +19,33 @@ const Cadastro1 = ({ navigation }) => {
     <SafeAreaView style={styles.container1}>
       <StatusBar backgroundColor="#000089" barStyle="light-content" />
       <View style={styles.container2}>
-        <View style={styles.entradaDados}>
+        <View style={styles.titulo}>
+        <Text style={styles.tituloTexto}>Cadastro de Usuário</Text>
+        </View>
+          <View style={styles.entradaDados}>
           <Text style={styles.rotulo}>Nome</Text>
           <TextInput
             style={styles.campoEntrada}
             value={nome}
             onChangeText={setNome}
             placeholder="Digite seu nome"
+            placeholderTextColor="#000089" // Deixa ai nao da para colocar no style
+          />
+          <Text style={styles.rotulo}>Cartão do SUS</Text>
+          <TextInput
+            style={styles.campoEntrada}
+            value={nome}
+            onChangeText={setNome}
+            placeholder="Digite o seu Cartão do SUS"
+            placeholderTextColor="#000089" 
+          />
+           <Text style={styles.rotulo}>Cadastro de Pesssoa Física(CPF)</Text>
+          <TextInput
+            style={styles.campoEntrada}
+            value={nome}
+            onChangeText={setNome}
+            placeholder="Digite seu CPF"
+            placeholderTextColor="#000089" 
           />
           <Text style={styles.rotulo}>Email</Text>
           <TextInput
@@ -34,15 +54,41 @@ const Cadastro1 = ({ navigation }) => {
             onChangeText={setEmail}
             placeholder="Digite seu email"
             keyboardType="email-address"
+            placeholderTextColor="#000089" 
           />
           <Text style={styles.rotulo}>Senha</Text>
           <TextInput
             style={styles.campoEntrada}
             value={senha}
-            onChangeText={setSenha}
+            onChangeText={''}
             placeholder="Digite sua senha"
-            secureTextEntry
+            placeholderTextColor="#000089" 
           />
+<Text style={styles.rotulo}>Senha</Text>
+          <TextInput
+            style={styles.campoEntrada}
+            value={senha}
+            onChangeText={''}
+            placeholder="Digite sua senha"
+            placeholderTextColor="#000089" 
+                      />
+<Text style={styles.rotulo}>Senha</Text>
+          <TextInput
+            style={styles.campoEntrada}
+            value={senha}
+            onChangeText={''}
+            placeholder="Digite sua senha"
+            placeholderTextColor="#000089" 
+                      />
+        <Text style={styles.rotulo}>Senha</Text>
+          <TextInput
+            style={styles.campoEntrada}
+            value={senha}
+            onChangeText={''}
+            placeholder="Digite sua senha"
+            placeholderTextColor="#000089" 
+          />
+
         </View>
         <TouchableOpacity
           style={styles.botaoAcessar}

@@ -32,7 +32,6 @@ const styles = StyleSheet.create({
     width: '80%',
   },
   campoEntrada: {
-    color: 'white',
     borderWidth: 2,
     padding: 10,
     marginVertical: 10,
@@ -40,7 +39,7 @@ const styles = StyleSheet.create({
     borderColor: 'white',
     backgroundColor: '#000089',
     borderRadius: 8,
-    shadowColor: 'black',
+    shadowColor: 'white',
     shadowOffset: { width: 2, height: 2 },
     shadowOpacity: 0.3,
     shadowRadius: 3,

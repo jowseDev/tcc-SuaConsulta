@@ -35,6 +35,7 @@ const LoginScreen = ({ navigation }) => {
               style={styles.campoEntrada}
               placeholder="000.000.000-00"
               secureTextEntry={false}
+               placeholderTextColor="white"
               onChangeText={''}
               value={''}
             />
@@ -44,6 +45,7 @@ const LoginScreen = ({ navigation }) => {
               style={styles.campoEntrada}
               placeholder="Senha"
               secureTextEntry={true}
+              placeholderTextColor="white"
               onChangeText={''}
               value={''}
             />

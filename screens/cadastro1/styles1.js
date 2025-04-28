@@ -26,7 +26,7 @@ espaco:{
   },
 
   campoEntrada: {
-    color: '#000089',
+    textShadowColor: 'pink',
     padding: 12,
     marginVertical: 15,
     width: '100%',
@@ -70,6 +70,18 @@ espaco:{
     backgroundColor: '#000089',
     height: 20,
     width: '100%',
+  },
+  titulo: {
+    width: '100%',
+    alignItems: 'center',
+    marginBottom: 20,
+  },
+  tituloTexto: { 
+    fontSize: 35,
+    fontWeight: 'bold',
+    color: '#000089',
+    fontFamily: 'Nunito',
+    marginTop: 25,
   },
 });
 
