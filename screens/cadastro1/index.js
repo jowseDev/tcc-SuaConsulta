@@ -56,6 +56,14 @@ const Cadastro = ({ navigation }) => {
             keyboardType="email-address"
             placeholderTextColor="#000089" 
           />
+            <TextInput
+            style={styles.campoEntrada}
+            value={email}
+            onChangeText={setEmail}
+            placeholder="Digite seu email"
+            keyboardType="email-address"
+            placeholderTextColor="#000089" 
+          />
           <Text style={styles.rotulo}>Senha</Text>
           <TextInput
             style={styles.campoEntrada}
