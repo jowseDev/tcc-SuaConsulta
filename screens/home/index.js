@@ -73,11 +73,11 @@ const Home = ({ navigation }) => {
           style={styles.cardConsulta}
           onPress={() => navigation.navigate('AgendarConsulta')}
         >
-          <Image source={require('../../assets/agendarConsultaImg.png')}
+          <Image source={require('../../assets/agendarConsultaImg2.png')}
           resizeMode="contain"
           style={styles.imagemAgendarConsulta} />
           <Text style={styles.textoConsulta}>Agendar consulta</Text>
-          <Image source={require('../../assets/setaBotaoImg.png')} 
+          <Image source={require('../../assets/botaoAvancarAzulImg.png')} 
           resizeMode="contain"
           style={styles.setaBotao} />
         </TouchableOpacity>
@@ -86,11 +86,11 @@ const Home = ({ navigation }) => {
           style={styles.cardConsulta}
           onPress={() => navigation.navigate('ConsultasAgendadas')}
         >
-          <Image source={require('../../assets/consultaAgendadaImg.png')} 
+          <Image source={require('../../assets/consultaAgendadaImg2.png')} 
           resizeMode="contain"
           style={styles.imagemConsultasAgendadas} />
           <Text style={styles.textoConsulta}>Consultas Agendadas</Text>
-          <Image source={require('../../assets/setaBotaoImg.png')}
+          <Image source={require('../../assets/botaoAvancarAzulImg.png')}
           resizeMode="contain"
           style={styles.setaBotao} />
         </TouchableOpacity>
@@ -99,16 +99,14 @@ const Home = ({ navigation }) => {
           style={styles.cardConsulta}
           onPress={() => navigation.navigate('ConsultasConcluidas')}
         >
-          <Image source={require('../../assets/consultaConcluidaImg.png')}
+          <Image source={require('../../assets/consultaConcluidaImg2.png')}
           resizeMode="contain"
           style={styles.imagemHistoricoConsultas} />
           <Text style={styles.textoConsulta}>Histórico de consultas</Text>
-          <Image source={require('../../assets/setaBotaoImg.png')}
+          <Image source={require('../../assets/botaoAvancarAzulImg.png')}
           resizeMode="contain"
           style={styles.setaBotao} />
         </TouchableOpacity>
-        <View> Teste</View>
-
       </ScrollView>
     </SafeAreaView>
   );

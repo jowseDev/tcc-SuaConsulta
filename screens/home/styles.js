@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
     width: 110,
   },
   cardConsulta: {
-    backgroundColor: '#000089',
+    backgroundColor: 'white',
     width: width * 0.9,
     height: 80,
     marginTop: 15,
@@ -147,7 +147,7 @@ const styles = StyleSheet.create({
     marginRight: 15,
   },
   textoConsulta: {
-    color: 'white',
+    color: '#000089',
     fontSize: 16,
     fontWeight: 'bold',
     flex: 1,

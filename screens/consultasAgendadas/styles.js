@@ -11,25 +11,21 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: '#ededed',
   },
-  parteBaixo: {
+  cabecalho: {
     backgroundColor: '#000089',
-    width: '100%',
-    padding: 20,
+    height: 60,
+    flexDirection: 'row',
     alignItems: 'center',
-    borderTopLeftRadius: 20,
-    borderTopRightRadius: 20,
+    justifyContent: 'space-between',
+    paddingHorizontal: 15,
   },
   botaoVoltar: {
-    backgroundColor: 'white',
-    padding: 15,
-    borderRadius: 8,
-    width: '50%',
-    alignItems: 'center',
+    width: 30,
+    height: 30,
   },
-  textoBotao: {
-    color: '#000089',
-    fontWeight: 'bold',
-    fontSize: 16,
+  logoHeader: {
+    width: 120,
+    height: 40,
   },
 });
 
