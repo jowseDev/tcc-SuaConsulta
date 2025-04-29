@@ -107,6 +107,8 @@ const Home = ({ navigation }) => {
           resizeMode="contain"
           style={styles.setaBotao} />
         </TouchableOpacity>
+        <View> Teste</View>
+
       </ScrollView>
     </SafeAreaView>
   );
