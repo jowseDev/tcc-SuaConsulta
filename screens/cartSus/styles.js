@@ -7,11 +7,15 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
   },
+  scrollContainer: {
+    flexGrow: 1,
+    paddingVertical: 20,
+  },
   container2: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#2011b1',
+    backgroundColor: '#ededed',
   },
   cardInfo: {
     width: '90%',
@@ -24,43 +28,31 @@ const styles = StyleSheet.create({
     shadowRadius: 3.84,
     elevation: 5,
   },
-  nome: {
+  titulo: {
     color: '#000089',
-    fontSize: 24,
+    fontSize: 28,
     fontWeight: 'bold',
     textAlign: 'center',
-    marginBottom: 2,
+    marginBottom: 20,
+  },
+  infoContainer: {
+    marginBottom: 25,
+  },
+  nome: {
+    color: '#000089',
+    fontSize: 22,
+    fontWeight: 'bold',
+    marginBottom: 5,
   },
   rotulo: {
     color: '#000089',
     fontSize: 14,
     fontWeight: 'bold',
-    marginBottom: 15,
   },
   info: {
     color: '#000089',
-    fontSize: 16,
-    marginBottom: 2,
-  },
-  parteBaixo: {
-    backgroundColor: '#000089',
-    width: '100%',
-    padding: 20,
-    alignItems: 'center',
-    borderTopLeftRadius: 20,
-    borderTopRightRadius: 20,
-  },
-  botaoVoltar: {
-    backgroundColor: 'white',
-    padding: 15,
-    borderRadius: 8,
-    width: '50%',
-    alignItems: 'center',
-  },
-  textoBotao: {
-    color: '#000089',
-    fontWeight: 'bold',
-    fontSize: 16,
+    fontSize: 18,
+    marginBottom: 5,
   },
   linhaDivisoria: {
     height: 1,
@@ -83,6 +75,22 @@ const styles = StyleSheet.create({
     fontSize: 12,
     marginTop: 15,
     textAlign: 'center',
+  },
+  cabecalho: {
+    backgroundColor: '#000089',
+    height: 60,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 15,
+  },
+  botaoVoltar: {
+    width: 35,
+    height: 35,
+  },
+  logoHeader: {
+    width: 140,
+    height: 45,
   },
 });
 

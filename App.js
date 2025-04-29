@@ -46,9 +46,15 @@ export default function App() {
           component={CartSus}
           options={{ headerShown: false }}
         />
-        <Stack.Screen name="AgendarConsulta" component={AgendarConsulta} />
-        <Stack.Screen name="ConsultasAgendadas" component={ConsultasAgendadas} />
-        <Stack.Screen name="ConsultasConcluidas" component={ConsultasConcluidas} />
+        <Stack.Screen name="AgendarConsulta" component={AgendarConsulta}
+                  options={{ headerShown: false }}
+                  />
+        <Stack.Screen name="ConsultasAgendadas" component={ConsultasAgendadas}
+                  options={{ headerShown: false }}
+                  />
+        <Stack.Screen name="ConsultasConcluidas" component={ConsultasConcluidas} 
+                  options={{ headerShown: false }}
+/>
       </Stack.Navigator>
     </NavigationContainer>
   );

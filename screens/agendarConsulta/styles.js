@@ -20,12 +20,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
   },
   botaoVoltar: {
-    width: 30,
-    height: 30,
+    width: 35,
+    height: 35,
   },
   logoHeader: {
-    width: 120,
-    height: 40,
+    width: 140,
+    height: 45,
   },
 });
 
