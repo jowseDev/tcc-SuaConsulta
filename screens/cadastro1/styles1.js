@@ -1,9 +1,9 @@
 import { StyleSheet } from 'react-native';
 
 const styles1 = StyleSheet.create({
-espaco:{
-  padding: 30,
-  backgroundColor: '#ededed',
+  espaco: {
+    padding: 30,
+    backgroundColor: '#ededed',
   },
   container1: {},
   container2: {
@@ -24,15 +24,13 @@ espaco:{
     paddingLeft: 10,
     marginBottom: 2,
   },
-
   campoEntrada: {
-    textShadowColor: 'pink',
     padding: 12,
     marginVertical: 15,
     width: '100%',
     borderColor: '#000089',
     backgroundColor: '#ededed',
-    borderRadius: 8,
+    borderRadius: 10,
     borderWidth: 2,
     textAlign: 'left',
     shadowColor: 'black',
@@ -40,6 +38,25 @@ espaco:{
     shadowOpacity: 0.3,
     shadowRadius: 3,
     elevation: 5,
+  },
+  campoPicker: {
+    paddingHorizontal: 10,
+    marginVertical: 15,
+    width: '100%',
+    borderColor: '#000089',
+    backgroundColor: '#ededed',
+    borderRadius: 10,
+    borderWidth: 2,
+    shadowColor: 'black',
+    shadowOffset: { width: 2, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 3,
+    elevation: 5,
+    justifyContent: 'center',
+  },
+  picker: { // Estilo apenas para o Picker interno
+    color: '#000089',
+    width: '100%',
   },
   parteBaixo: {
     backgroundColor: '#000089',
@@ -54,7 +71,7 @@ espaco:{
   },
   botaoAcessar: {
     backgroundColor: '#3019c5',
-    color:'white',
+    color: 'white',
     padding: 15,
     borderRadius: 8,
     alignItems: 'center',
@@ -64,7 +81,6 @@ espaco:{
     shadowOpacity: 0.3,
     shadowRadius: 3,
     elevation: 5,
-
   },
   statusBar: {
     backgroundColor: '#000089',
@@ -76,12 +92,30 @@ espaco:{
     alignItems: 'center',
     marginBottom: 20,
   },
-  tituloTexto: { 
+  tituloTexto: {
     fontSize: 35,
     fontWeight: 'bold',
     color: '#000089',
     fontFamily: 'Nunito',
     marginTop: 25,
+  },
+  scrollContainer: {
+    paddingBottom: 50,
+  },
+  linha: {
+    width: '90%',
+    height: 1,
+    backgroundColor: '#000089',
+    marginVertical: 20,
+    alignSelf: 'center',
+  },
+  subtitulo: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#000089',
+    alignSelf: 'flex-start',
+    paddingLeft: 40,
+    marginTop: 10,
   },
 });
 
